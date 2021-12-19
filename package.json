@@ -1,0 +1,25 @@
+{
+    "name": "express-HelloWorld",
+    "description": "Hello World Node Express web application",
+    "version": "0.0.1",
+    "private": true,
+    "dependencies": {
+        "body-parser": "^1.19.1",
+        "ejs": "^3.1.6",
+        "express": "^4.17.1",
+        "express-session": "^1.17.2",
+        "googleapis": "^92.0.0",
+        "jsonwebtoken": "^8.5.1"
+    },
+    "devDependencies": {
+        "mocha": "^5.0.0",
+        "nodemon": "^2.0.15",
+        "supertest": "^3.0.0",
+        "unit.js": "^2.0.0"
+    },
+    "scripts": {
+        "start": "node server.js",
+        "test": "mocha --recursive tests --exit",
+        "dev": "nodemon server"
+    }
+}
